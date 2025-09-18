@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Global scrollbar styling for the entire project */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #6b7280 #f3f4f6;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #6b7280;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
+
+/* Dark mode scrollbar styling */
+@media (prefers-color-scheme: dark) {
+  * {
+    scrollbar-color: #6b7280 #374151;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #374151;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: #6b7280;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+  }
+}
