@@ -1,0 +1,50 @@
+# Core Scientific, ML, & Data Visualization 
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+plotly
+
+# Data Source Handling 
+xarray[netcdf4]
+sqlalchemy
+
+# Database Connection 
+psycopg2-binary  # For PostgreSQL
+mysql-connector-python  # For MySQL
+
+# Backend API 
+fastapi
+uvicorn[standard]
+
+# AI & RAG - Core Framework 
+langchain
+langchain-core
+chromadb
+sentence-transformers
+
+# AI & RAG - LLM Integrations (choose the one you will use)
+# OpenAI
+openai
+langchain-openai
+
+# Google
+google-generativeai
+langchain-google-genai
+
+# Anthropic
+langchain-anthropic
+
+# Hugging Face (for local models)
+huggingface-hub
+transformers
+langchain-huggingface
+
+# Frontend Prototyping 
+streamlit
+requests
+
+# Utilities 
+python-dotenv
